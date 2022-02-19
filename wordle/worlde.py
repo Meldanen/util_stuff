@@ -5,11 +5,11 @@ def is_english_word(word):
 with open("words.txt") as word_file:
     words = set(word.strip().lower() for word in word_file if len(word) == 6)
 
-# example: nopes = ['d', 'i']
+# nopes = ['d', 'i']
 nopes = [] 
-# example: yeps = [('l', 4), ('g', 2)] 
+# yeps = [('l', 4), ('g', 2)] 
 yeps = []  
-# example: yeps_somewhere = [('a', [0]), ('r', [3, 2])]
+# yeps_somewhere = [('a', [0]), ('r', [3, 2])]
 yeps_somewhere = []  
 final_words = []
 and_back_to_start = False
